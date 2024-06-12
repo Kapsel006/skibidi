@@ -10,29 +10,29 @@
     <script>
         imie = prompt("Podaj imię:");
     nazwisko = prompt("Podaj nazwisko:");
-       a_iwi = (nazwisko.length % 4) + 5;
-    b_iwi = (imie.length % 6) + 20;
-         document.write(a_iwi); 
+       a_mol = (nazwisko.length % 4) + 5;
+    b_mol = (imie.length % 6) + 20;
+         document.write(a_mol); 
 		    document.write("<br>");
-		 document.write(b_iwi); 
+		 document.write(b_mol); 
         document.write("<pre>"); 
         // Górna krawędź
-        for (var i = 0; i < b_iwi + 2; i++) {
+        for (var i = 0; i < b_mol + 2; i++) {
             document.write("*");
         }
         document.write("<br>");
 
         // Środek
-        for (var i = 0; i < a_iwi; i++) {
+        for (var i = 0; i < a_mol; i++) {
             document.write("*");
-            for (var j = 0; j < b_iwi; j++) {
+            for (var j = 0; j < b_mol; j++) {
                 document.write("&nbsp;");
             }
             document.write("*<br>");
         }
 
         // Dolna krawędź
-        for (var i = 0; i < b_iwi + 2; i++) {
+        for (var i = 0; i < b_mol + 2; i++) {
             document.write("*");
         }
         document.write("<br>");
